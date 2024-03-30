@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    flex: 1;
+    /* Add your styles for each flex item here */
+}
