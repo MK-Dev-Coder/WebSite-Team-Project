@@ -1,18 +1,80 @@
-.container {
+.menu {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    position: fixed;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    text-align: center;
 }
 
-.item {
-    flex: 1;
-    /* Add your styles for each flex item here */
+
+/* Style the burger menu */
+.burger {
+    display: none;
+    cursor: pointer;
 }
 
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
 
+/* Show the burger menu on smaller screens */
+@media screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        display: none;
+    }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .burger {
+        display: block;
+    }
+}
+
+.UploadMessage{
+    text-align: center;
+    margin: 20vh auto;
+    font-size: 3vw;
+    font-size: min(3vw, 36px);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 2em;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+    .UploadMessage {
+        font-size: min(2.5vw, 30px);
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    .UploadMessage {
+        font-size: min(2vw, 24px);
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    .UploadMessage {
+        font-size: min(1.5vw, 18px);
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    .UploadMessage {
+        font-size: min(1vw, 16px);
+    }
 }

@@ -22,3 +22,9 @@ function uploadItem(item) {
         document.getElementById('no-uploads-message').style.display = 'none';
     }
 }
+
+// Repsonsive menu bar
+document.querySelector('.burger').addEventListener('click', function() {
+    var nav = document.querySelector('nav ul');
+    nav.style.display = nav.style.display === 'none' ? 'flex' : 'none';
+});
