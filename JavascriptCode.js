@@ -24,7 +24,13 @@ function uploadItem(item) {
 }
 
 // Repsonsive menu bar
-document.querySelector('.burger').addEventListener('click', function() {
-    var nav = document.querySelector('nav ul');
-    nav.style.display = nav.style.display === 'none' ? 'flex' : 'none';
-});
+const navSlide = () => {
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav-links');
+
+    burger.addEventListener('click', () => {
+        nav.classList.toggle('nav-active');
+    });
+}
+
+navSlide();
