@@ -4,7 +4,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $password = $_POST['password'];
 
     // Process the login info here
-    // ...
+    
 }
 ?>
 <?php
@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $password = $_POST['password'];
 
     // Process the login info here
-    // ...
+    
 
     // Store account information in session variables
     $_SESSION['username'] = $username;
