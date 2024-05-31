@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(38, 221, 227);
+}
+
+
+
+
+.container {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: white;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 5em auto;
+    border-radius: 50px;
+    
+}
+
+.field {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items in the center */
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid;
+    max-width: 600px; 
+    width: 100%; 
+    margin-left: auto; /* These two lines will center the input field */
+    margin-right: auto;
+}
+
+.label {
+    font-size: 1.3em;
+}
+
+
+h1{
+    font-size: 3vw;
+    font-size: min(3vw, 36px);
+    text-align: center;
+   
+
+}
