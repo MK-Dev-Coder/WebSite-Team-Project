@@ -4,35 +4,51 @@ form{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: auto;
 
+   
+    background-color: white;
+    width: 30%;
+    margin: 0 auto;
+    padding: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    padding: 2%;
+    
 }
 
 label{
-    margin-right: 10%;
+    margin-right: 30%;
     font-size: 1.5rem;
     bottom: 500;
+    margin-bottom: 2%;
+    
 
 }
 
 input{
-    margin-bottom: 2%;
-    width: 15%;
+    margin-bottom: 3%;
+    width: 50%;
     height: 2rem;
     font-size: 1.5rem;
-    border-radius: 5px;
+
+    
 }
 
 
 button{
-    width: 8%;
+    width: 15%;
     font-size: 1.5rem;
     color: white;
     border: none;
     background-color: rgb(152, 189, 235);
     cursor: pointer;
-    padding-bottom: 1%;
-    padding-top: 1%;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+ 
    
 }
 
@@ -41,16 +57,14 @@ button:hover{
 }
 
 
-.checkbox-group {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 12%;
-    margin-left: 3%;
 
+
+h1{
+    
+    font-size: 2rem;
+    text-align: center;
 }
 
-.checkbox-group input {
-    margin-right: 5%;
-    width: 10%;
+.no-underline {
+    text-decoration: none;
 }

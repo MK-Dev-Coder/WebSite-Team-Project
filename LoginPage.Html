@@ -7,21 +7,26 @@
     <link rel="stylesheet" href="Login.css">
 </head>
 <body>
+   
+
     <form action="">
+        
+        <h1>Login</h1>
+
         <label for="username">Username</label>
-        <input type="text" id="username" name="username">
+        <input type="text" id="username" name="username" required placeholder="Type Username">
 
         <label for="password">Password</label>
-        <input type="password" id="password" name="password">
+        <input type="password" id="password" name="password" required placeholder="Type Password">
         
-        <div class="checkbox-group">
-            <label for="remember">Remember Me</label>
-            <input type="checkbox" id="remember" name="remember">
-        </div>
-
         <a href="">Forgot Your Password?</a><br>
 
-        <button type="submit">Submit</button>
+       <div style="display: flex; align-items: center;">
+    <p style="margin: 0;">Don't have an account?</p>
+    <a href="SignUpPage.html" style="margin: 0; color: rgb(10, 124, 173);"> Sign Up</a>
+</div>
+
+        <button type="submit">Login</button>
     </form>
 </body>
 </html>
