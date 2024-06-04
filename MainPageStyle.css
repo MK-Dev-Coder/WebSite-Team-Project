@@ -20,11 +20,11 @@
 .menu{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: rgb(252, 252, 252);
-    padding: 1.3em;
     margin: 0;
     display: flex;
     justify-content:flex-start;
     align-items:center;
+    padding: 1em;
    
 }
 
@@ -33,7 +33,7 @@
     margin-right:1em;
     text-decoration: none;
     font-size: 1.3em;
-    padding: 0.5em;
+    padding: 1em;
     color: rgb(79, 153, 236);
 }
 
@@ -58,8 +58,14 @@ margin-left: 35em;
 
 }
 
+
+
 .menu button[type="submit"]:hover{
     background-color: rgb(79, 153, 236);
 }
 
-
+body{
+    
+    background-color: rgb(10, 82, 120);
+  
+}
